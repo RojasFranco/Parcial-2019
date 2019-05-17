@@ -205,7 +205,7 @@
 	"utn.h"
 	"fantasma.h"
 
-1558051678 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/main.c
+1558053460 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/main.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
@@ -214,13 +214,13 @@
 	"musico.h"
 	"instrumento.h"
 
-1558042803 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/utn.c
+1558052525 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/utn.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"utn.h"
 
-1558048090 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/orquesta.c
+1558053186 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/orquesta.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
@@ -229,7 +229,7 @@
 
 1558044004 /home/alumno/Parcial-2019/Parcial2019_Orquesta/orquesta.h
 
-1558051389 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/musico.c
+1558055034 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/musico.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>
@@ -238,11 +238,11 @@
 	"instrumento.h"
 	"orquesta.h"
 
-1558050886 /home/alumno/Parcial-2019/Parcial2019_Orquesta/musico.h
+1558054751 /home/alumno/Parcial-2019/Parcial2019_Orquesta/musico.h
 	"instrumento.h"
 	"orquesta.h"
 
-1558048090 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/instrumento.c
+1558052150 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/instrumento.c
 	<string.h>
 	<stdio.h>
 	<stdlib.h>

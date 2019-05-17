@@ -104,7 +104,7 @@ int utn_getUnsignedInt(  char* msg,char* msgError,int minSize,int maxSize,int mi
     int retorno=-1;
     char bufferStr[maxSize];
 
-    if(msg!=NULL && msgError!=NULL && minSize<maxSize && min<max && reintentos>=0 && input!=NULL)
+    if(msg!=NULL && msgError!=NULL && minSize<=maxSize && min<=max && reintentos>=0 && input!=NULL)
     {
         do
         {

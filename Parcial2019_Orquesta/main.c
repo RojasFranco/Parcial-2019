@@ -35,7 +35,7 @@ int main()
     arrayInstrumento[0].tipo=2;
     contadorIdInstrumento++;
 
-    arrayInstrumento[1].idInstrumento=3;
+    arrayInstrumento[1].idInstrumento=4;
     arrayInstrumento[1].isEmpty=0;
     strcpy(arrayInstrumento[1].nombre,"JOSE");
     arrayInstrumento[1].tipo=3;
@@ -47,6 +47,13 @@ int main()
     strcpy(arrayOrquesta[0].lugar,"asdasd 123");
     strcpy(arrayOrquesta[0].nombre,"JUAN");
     arrayOrquesta[0].tipoOrquesta=1;
+    contadorIdOrquesta++;
+
+    arrayOrquesta[1].idOrquesta=2;
+    arrayOrquesta[1].isEmpty=0;
+    strcpy(arrayOrquesta[1].lugar,"av saas 124");
+    strcpy(arrayOrquesta[1].nombre,"ADOLFO");
+    arrayOrquesta[1].tipoOrquesta=4;
     contadorIdOrquesta++;
 
 

@@ -163,7 +163,7 @@ int instrumento_alta(Instrumento array[], int size, int* contadorID)            
         else
         {
 
-            if(!utn_getName("\Nombre: ","\nError",1,TEXT_SIZE,1,array[posicion].nombre))
+            if(!utn_getName("\nNombre: ","\nError",1,TEXT_SIZE,1,array[posicion].nombre))
             {
                 if(!utn_getUnsignedInt("\nTipo\n1-Cuerdas\n2-Viento-madera\n3-Viento-metal\n4-Percusion\nOpcion: ","\nError",1,sizeof(int),1,5,1,&auxTipoInstrumento))
                 {

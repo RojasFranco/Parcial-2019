@@ -384,7 +384,7 @@ int orquesta_listar(Orquesta array[], int size)                      //cambiar o
             if(array[i].isEmpty==1)
                 continue;
             else
-                printf("\n Posicion: %d\n ID: %d\n tipoOrquesta: %d\nnombre: %s\n lugar: %s",
+                printf("\n Posicion: %d\n ID: %d\n tipoOrquesta: %d\nnombre: %s\n lugar: %s\n",
                    i, array[i].idOrquesta,array[i].tipoOrquesta,array[i].nombre,array[i].lugar);     //cambiar todos
         }
         retorno=0;
