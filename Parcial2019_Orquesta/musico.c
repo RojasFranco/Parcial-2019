@@ -118,10 +118,11 @@ int musico_buscarInt(Musico array[], int size, int valorBuscado, int* posicion) 
 * \param array musico Array de musico
 * \param size int Tamaño del array
 * \param posicion int* Puntero a la posicion del array donde se encuentra el valor buscado
+* \param posicion int* Puntero a la posicion del array donde se encuentra el segundo valor buscado
 * \return int Return (-1) si no encuentra el valor buscado o Error [Invalid length or NULL pointer] - (0) si encuentra el valor buscado
 *
 */
-int musico_buscarString(Musico array[], int size, char* valorBuscado, int* indice)                    //cambiar musico
+int musico_buscarString(Musico array[], int size, char* valorBuscado, char* segundoValorBuscado, int* indice)                    //cambiar musico
 {
     int retorno=-1;
     int i;
@@ -131,7 +132,7 @@ int musico_buscarString(Musico array[], int size, char* valorBuscado, int* indic
         {
             if(array[i].isEmpty==1)
                 continue;
-            else if(strcmp(array[i].nombre,valorBuscado)==0)                                        //cambiar campo nombre
+            else if(strcmp(array[i].nombre,valorBuscado)==0 && strcmp(array[i].apellido, segundoValorBuscado)==0)                                        //cambiar campo nombre
             {
                 *indice=i;
                 retorno=0;
@@ -154,10 +155,13 @@ int musico_buscarString(Musico array[], int size, char* valorBuscado, int* indic
 int musico_alta(Musico array[], int size, int* contadorID, Orquesta arrayOrquesta[], int lenOrquesta, Instrumento arrayInstrumento[], int lenInstrumento)
 {
     int retorno=-1;
+    char auxNombre[20];
+    char auxApellido[20];
     int posicion;
     int auxIdOrquesta;
     int auxIdInstrumento;
     int posicionIdOrquesta;
+    int posicionValorBuscado;
     if(array!=NULL && size>0 && contadorID!=NULL)
     {
         if(musico_buscarEmpty(array,size,&posicion)==-1)
@@ -176,14 +180,24 @@ int musico_alta(Musico array[], int size, int* contadorID, Orquesta arrayOrquest
                     instrumento_listar(arrayInstrumento, lenInstrumento);
                     if( (!utn_getUnsignedInt("\nIngrese id de instrumento:", "Error\n", 1, sizeof(int), 1,10, 2, &auxIdInstrumento)) && (!instrumento_buscarID(arrayInstrumento, lenInstrumento, auxIdInstrumento, &array[posicion].idInstrumento)))
                     {
-                        if( (!utn_getName("\nNombre: ","\nError",1,TEXT_SIZE,1,array[posicion].nombre)) && (!utn_getName("\nApellido: ","\nError",1,TEXT_SIZE,1,array[posicion].apellido)))
+                        if( (!utn_getName("\nNombre: ","\nError",1,TEXT_SIZE,1,auxNombre)) && (!utn_getName("\nApellido: ","\nError",1,TEXT_SIZE,1,auxApellido)))
                         {
                             if(!utn_getUnsignedInt("\nEdad: ","\nError",1,sizeof(int),1,10,1,&array[posicion].edad))
                             {
-                                (*contadorID)++;
-                                array[posicion].idMusico=*contadorID;
-                                array[posicion].isEmpty=0;
-                                retorno=0;
+
+                                if(!musico_buscarString(array, size, auxNombre, auxApellido, &posicionValorBuscado))
+                                {
+                                    printf("\nEl musico ya pertenece a una orquesta\n");
+                                }
+                                else
+                                {
+                                    (*contadorID)++;
+                                    array[posicion].idMusico=*contadorID;
+                                    array[posicion].isEmpty=0;
+                                    strncpy(array[posicion].nombre, auxNombre, TEXT_SIZE);
+                                    strncpy(array[posicion].apellido, auxApellido, TEXT_SIZE);
+                                    retorno=0;
+                                }
                             }
                         }
                     }
@@ -194,6 +208,7 @@ int musico_alta(Musico array[], int size, int* contadorID, Orquesta arrayOrquest
     }
     return retorno;
 }
+
 
 //*****************************************
 //Baja valor unico
@@ -302,7 +317,7 @@ int musico_modificar(Musico array[], int sizeArray, Orquesta arrayOrquesta[], in
                     case 'B':
                         orquesta_listar(arrayOrquesta, lenOrquesta);
                         utn_getUnsignedInt("\nId nueva orquesta:","\n Error", 1, sizeof(int), 1, 10,1, &auxIdOrquesta);
-                        printf("\n\nID:%d\n\n", auxIdOrquesta);
+                        //printf("\n\nID:%d\n\n", auxIdOrquesta);
                         if(!orquesta_buscarID(arrayOrquesta, lenOrquesta, auxIdOrquesta, &array[posicion].idOrquesta))
                         {
                             printf("\nSe modifico id exitoxamente\n");
@@ -403,12 +418,13 @@ int musico_listar(Musico array[], int size)
 }
 
 
-/*
 int musico_imprimir(Musico array[], int size, Instrumento arrayInstrumento[], int lenInstrumento)
 {
     int retorno=-1;
     int i;
-    if(array!=NULL && size>=0 && arrayInstrumento!=NULL && lenInstrumento>=)
+    int posicionInstrumento;
+    char tipoInstrumentoTexto[15];
+    if(array!=NULL && size>=1 && arrayInstrumento!=NULL && lenInstrumento>=1)
     {
         for(i=0;i<size;i++)
         {
@@ -416,13 +432,14 @@ int musico_imprimir(Musico array[], int size, Instrumento arrayInstrumento[], in
                 continue;
             else
             {
-                printf("ID:%d \n Nombre musico:%s \n Apellido musico:%s \n nombre instrumento: %s \nTipo instrumento: %d\n",
-                    array[i].idMusico, array[i].nombre, array[i].apellido, )
+                instrumento_buscarID(arrayInstrumento, lenInstrumento, array[i].idInstrumento, &posicionInstrumento);
+                instrumento_tipoEnTexto(arrayInstrumento[posicionInstrumento].tipo, tipoInstrumentoTexto);
+                printf("ID:%d \n Nombre musico:%s \n Apellido musico:%s \n nombre instrumento: %s \nTipo instrumento: %d (%s)\n",
+                    array[i].idMusico, array[i].nombre, array[i].apellido, arrayInstrumento[posicionInstrumento].nombre, arrayInstrumento[posicionInstrumento].tipo, tipoInstrumentoTexto);
             }
+        }
+        retorno=0;
     }
     return retorno;
 }
-
-*/
-//\n nombre instrumento: %s\n tipo instrumento: %d"
 

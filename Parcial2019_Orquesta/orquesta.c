@@ -377,6 +377,7 @@ int orquesta_listar(Orquesta array[], int size)                      //cambiar o
 {
     int retorno=-1;
     int i;
+    char tipoOrquesta[15];
     if(array!=NULL && size>=0)
     {
         for(i=0;i<size;i++)
@@ -384,10 +385,42 @@ int orquesta_listar(Orquesta array[], int size)                      //cambiar o
             if(array[i].isEmpty==1)
                 continue;
             else
-                printf("\n Posicion: %d\n ID: %d\n tipoOrquesta: %d\nnombre: %s\n lugar: %s\n",
-                   i, array[i].idOrquesta,array[i].tipoOrquesta,array[i].nombre,array[i].lugar);     //cambiar todos
+            {
+                orquesta_tipoEnTexto(array[i].tipoOrquesta, tipoOrquesta);
+                printf("\n Posicion: %d\n ID: %d\n tipoOrquesta: %d (%s)\nnombre: %s\n lugar: %s\n",
+                   i, array[i].idOrquesta,array[i].tipoOrquesta, tipoOrquesta, array[i].nombre, array[i].lugar);
+            }
         }
         retorno=0;
+    }
+    return retorno;
+}
+
+
+/** \brief Cambia tipo de orquesta de numero a texto
+* \param tipoEnNumero tipo de orquesta en numero
+* \param tipoEnTexto tipo de orquesta en texto
+* \return int Return (-1) si Error [NULL pointer] - (0) si se lista exitosamente
+*
+*/
+int orquesta_tipoEnTexto(int tipoEnNumero, char* tipoEntexto)
+{
+    int retorno=-1;
+    if(tipoEntexto!=NULL)
+    {
+        switch(tipoEnNumero)
+        {
+            case 1:
+                strncpy(tipoEntexto, "Sinfonica", 15);
+                break;
+            case 2:
+                strncpy(tipoEntexto, "Filarmonica", 15);
+                break;
+            case 3:
+                strncpy(tipoEntexto, "Camara", 15);
+                break;
+        }
+        retorno = 0;
     }
     return retorno;
 }

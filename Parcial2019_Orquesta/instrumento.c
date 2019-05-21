@@ -370,6 +370,7 @@ int instrumento_ordenarPorDobleCriterio(Instrumento array[],int size, int orderF
 int instrumento_listar(Instrumento array[], int size)                      //cambiar instrumento
 {
     int retorno=-1;
+    char tipoInstrumento[15];
     int i;
     if(array!=NULL && size>=0)
     {
@@ -378,13 +379,46 @@ int instrumento_listar(Instrumento array[], int size)                      //cam
             if(array[i].isEmpty==1)
                 continue;
             else
-                printf("\n Posicion: %d\n ID: %d\n tipo: %d\n nombre: %s\n",
-                   i, array[i].idInstrumento,array[i].tipo,array[i].nombre);
+            {
+                instrumento_tipoEnTexto(array[i].tipo, tipoInstrumento);
+                printf("\n Posicion: %d\n ID: %d\n tipo: %s\n nombre: %s\n",
+                   i, array[i].idInstrumento,tipoInstrumento,array[i].nombre);
+            }
         }
         retorno=0;
     }
     return retorno;
 }
 
+/** \brief Cambia tipo de instrumento de numero a texto
+* \param tipoEnNumero tipo de instrumento en numero
+* \param tipoEnTexto tipo de instrumento en texto
+* \return int Return (-1) si Error [NULL pointer] - (0) si se lista exitosamente
+*
+*/
+int instrumento_tipoEnTexto(int tipoEnNumero, char* tipoEntexto)
+{
+    int retorno=-1;
+    if(tipoEntexto!=NULL)
+    {
+        switch(tipoEnNumero)
+        {
+            case 1:
+                strncpy(tipoEntexto, "Cuerdas", 15);
+                break;
+            case 2:
+                strncpy(tipoEntexto, "Viento-madera", 15);
+                break;
+            case 3:
+                strncpy(tipoEntexto, "Viento-metal", 15);
+                break;
+            case 4:
+                strncpy(tipoEntexto, "Percusion", 15);
+                break;
+        }
+        retorno = 0;
+    }
+    return retorno;
+}
 
 

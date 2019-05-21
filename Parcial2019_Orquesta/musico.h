@@ -26,7 +26,7 @@ int musico_Inicializar(Musico array[], int size);                               
 int musico_buscarEmpty(Musico array[], int size, int* posicion);                    //cambiar musico
 int musico_buscarID(Musico array[], int size, int valorBuscado, int* posicion);                    //cambiar musico
 int musico_buscarInt(Musico array[], int size, int valorBuscado, int* posicion);                    //cambiar musico
-int musico_buscarString(Musico array[], int size, char* valorBuscado, int* indice);                    //cambiar musico
+int musico_buscarString(Musico array[], int size, char* valorBuscado, char* segundoValorBuscado, int* indice);                    //cambiar musico
 int musico_alta(Musico array[], int size, int* contadorID, Orquesta arrayOrquesta[], int lenOrquesta, Instrumento arrayInstrumento[], int lenInstrumento);
 int musico_baja(Musico array[], int sizeArray);                                      //cambiar musico
 int musico_bajaValorRepetidoInt(Musico array[], int sizeArray, int valorBuscado);

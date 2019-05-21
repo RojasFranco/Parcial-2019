@@ -30,4 +30,5 @@ int instrumento_bajaValorRepetidoInt(Instrumento array[], int sizeArray, int val
 int instrumento_modificar(Instrumento array[], int sizeArray);                                //cambiar instrumento
 int instrumento_ordenarPorDobleCriterio(Instrumento array[],int size, int orderFirst, int orderSecond);                                  //cambiar instrumento
 int instrumento_listar(Instrumento array[], int size);                      //cambiar instrumento
+int instrumento_tipoEnTexto(int tipoEnNumero, char* tipoEntexto);
 

@@ -251,3 +251,51 @@
 
 1558048028 /home/alumno/Parcial-2019/Parcial2019_Orquesta/instrumento.h
 
+1558316998 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1558309959 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/utn.h
+
+1558316978 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/instrumento.h
+
+1558384298 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+
+1558384257 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/orquesta.h
+
+1558383266 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/musico.h
+	"instrumento.h"
+	"orquesta.h"
+
+1558383237 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+
+1558384281 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558383849 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+

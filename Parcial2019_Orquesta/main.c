@@ -53,7 +53,7 @@ int main()
     arrayOrquesta[1].isEmpty=0;
     strcpy(arrayOrquesta[1].lugar,"av saas 124");
     strcpy(arrayOrquesta[1].nombre,"ADOLFO");
-    arrayOrquesta[1].tipoOrquesta=4;
+    arrayOrquesta[1].tipoOrquesta=3;
     contadorIdOrquesta++;
 
 
@@ -92,7 +92,7 @@ int main()
                 musico_baja(arrayMusico, QTY_ARRAY_MUSICO);
                 break;
             case 7:
-                musico_listar(arrayMusico, QTY_ARRAY_MUSICO);
+                musico_imprimir(arrayMusico, QTY_ARRAY_MUSICO, arrayInstrumento, QTY_ARRAY_INSTRUMENTO);
                 break;
             case 8:
                 instrumento_alta(arrayInstrumento, QTY_ARRAY_INSTRUMENTO, &contadorIdInstrumento);

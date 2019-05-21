@@ -28,5 +28,6 @@ int orquesta_bajaValorRepetidoInt(Orquesta array[], int sizeArray, int valorBusc
 int orquesta_modificar(Orquesta array[], int sizeArray);                                //cambiar orquesta
 int orquesta_ordenarPorDobleCriterio(Orquesta array[],int size, int orderFirst, int orderSecond);                                  //cambiar orquesta
 int orquesta_listar(Orquesta array[], int size);                      //cambiar orquesta
+int orquesta_tipoEnTexto(int tipoEnNumero, char* tipoEntexto);
 
 
