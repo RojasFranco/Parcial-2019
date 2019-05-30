@@ -1,0 +1,436 @@
+# depslib dependency file v1.0
+1556427203 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1556426217 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1556483107 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\utn.h
+
+1556480949 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\entidades.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1556480936 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\entidades\entidades.h
+
+1556427203 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1556483107 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\utn.h
+
+1557013703 f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\entidades.h
+
+1556483094 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557013694 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\entidades.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1557001129 source:f:\cami\estudios\facultad\programación\01 programacion_laboratorio_1\repositorio\progamacion_laboratorio1\bibliotecas\biblioteca entidades\informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1557276041 source:/home/mauro/Descargas/FANTASMA/entidades.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"entidades.h"
+
+1557276041 /home/mauro/Descargas/FANTASMA/utn.h
+
+1557276041 /home/mauro/Descargas/FANTASMA/entidades.h
+
+1557344320 source:/home/mauro/Descargas/FANTASMA/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344132 source:/home/mauro/Descargas/FANTASMA/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344877 source:/home/mauro/Descargas/FANTASMA/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557344437 source:/home/mauro/Descargas/FANTASMA/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557343987 /home/mauro/Descargas/FANTASMA/fantasma.h
+
+1557364490 source:/home/mauro/Descargas/Fantasma_v3/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557276040 /home/mauro/Descargas/Fantasma_v3/utn.h
+
+1557409455 /home/mauro/Descargas/Fantasma_v3/fantasma.h
+
+1557409735 source:/home/mauro/Descargas/Fantasma_v3/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344916 source:/home/mauro/Descargas/Fantasma_v3/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557419730 source:/home/mauro/Descargas/Fantasma_v3/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557419730 source:/home/alumno/ProgramacionI-2019/Fantasma_v4/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557276040 /home/alumno/ProgramacionI-2019/Fantasma_v4/utn.h
+
+1557409455 /home/alumno/ProgramacionI-2019/Fantasma_v4/fantasma.h
+
+1557364490 source:/home/alumno/ProgramacionI-2019/Fantasma_v4/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557409735 source:/home/alumno/ProgramacionI-2019/Fantasma_v4/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557344916 source:/home/alumno/ProgramacionI-2019/Fantasma_v4/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1557599575 source:/home/franco/Escritorio/ProgramacionI-2019/Fantasma_v4/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557535298 /home/franco/Escritorio/ProgramacionI-2019/Fantasma_v4/utn.h
+
+1557535298 /home/franco/Escritorio/ProgramacionI-2019/Fantasma_v4/fantasma.h
+
+1557535298 source:/home/franco/Escritorio/ProgramacionI-2019/Fantasma_v4/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557599631 source:/home/franco/Escritorio/ProgramacionI-2019/Fantasma_v4/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1557695987 source:/home/franco/Escritorio/ProgramacionI-2019/Fantasma_v4/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1558042803 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/fantasma.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1558474709 /home/alumno/Parcial-2019/Parcial2019_Orquesta/utn.h
+
+1558042803 /home/alumno/Parcial-2019/Parcial2019_Orquesta/fantasma.h
+
+1558042803 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/informes.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"fantasma.h"
+
+1558483736 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+	"informe.h"
+
+1558474709 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1558474709 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558474709 /home/alumno/Parcial-2019/Parcial2019_Orquesta/orquesta.h
+
+1558474709 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+
+1558474709 /home/alumno/Parcial-2019/Parcial2019_Orquesta/musico.h
+	"instrumento.h"
+	"orquesta.h"
+
+1558474709 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1558474709 /home/alumno/Parcial-2019/Parcial2019_Orquesta/instrumento.h
+
+1558316998 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1558309959 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/utn.h
+
+1558316978 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/instrumento.h
+
+1558384298 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+
+1558384257 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/orquesta.h
+
+1558383266 /home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/musico.h
+	"instrumento.h"
+	"orquesta.h"
+
+1558383237 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+
+1558384281 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558383849 source:/home/franco/Escritorio/Parcial-2019/Parcial2019_Orquesta/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1558483674 source:/home/alumno/Parcial-2019/Parcial2019_Orquesta/informe.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+	"informe.h"
+
+1558482678 /home/alumno/Parcial-2019/Parcial2019_Orquesta/informe.h
+
+1559180164 source:/home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/informe.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+	"informe.h"
+
+1558562480 /home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/utn.h
+
+1558562480 /home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/orquesta.h
+
+1558810239 /home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/musico.h
+	"instrumento.h"
+	"orquesta.h"
+
+1559170366 /home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/instrumento.h
+
+1559175794 /home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/informe.h
+
+1558562480 source:/home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1559180459 source:/home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+	"informe.h"
+
+1559175898 source:/home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+
+1558808090 source:/home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558562480 source:/home/franco/Escritorio/ParcialInformes/Parcial-2019/Parcial2019_Orquesta/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1559180164 source:/home/franco/Escritorio/Parcial-2019/ParcialInformes/informe.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+	"informe.h"
+
+1558562480 /home/franco/Escritorio/Parcial-2019/ParcialInformes/utn.h
+
+1558562480 /home/franco/Escritorio/Parcial-2019/ParcialInformes/orquesta.h
+
+1558810239 /home/franco/Escritorio/Parcial-2019/ParcialInformes/musico.h
+	"instrumento.h"
+	"orquesta.h"
+
+1559170366 /home/franco/Escritorio/Parcial-2019/ParcialInformes/instrumento.h
+
+1559175794 /home/franco/Escritorio/Parcial-2019/ParcialInformes/informe.h
+
+1558562480 source:/home/franco/Escritorio/Parcial-2019/ParcialInformes/instrumento.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"instrumento.h"
+
+1559180459 source:/home/franco/Escritorio/Parcial-2019/ParcialInformes/main.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+	"musico.h"
+	"instrumento.h"
+	"informe.h"
+
+1559175898 source:/home/franco/Escritorio/Parcial-2019/ParcialInformes/musico.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"musico.h"
+	"instrumento.h"
+	"orquesta.h"
+
+1558808090 source:/home/franco/Escritorio/Parcial-2019/ParcialInformes/orquesta.c
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"orquesta.h"
+
+1558562480 source:/home/franco/Escritorio/Parcial-2019/ParcialInformes/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
